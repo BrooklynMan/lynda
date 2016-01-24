@@ -23,6 +23,27 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mAb-Zz-wfJ">
+                                <rect key="frame" x="20" y="83" width="172" height="30"/>
+                                <state key="normal" title="Did Shoot Alien"/>
+                                <connections>
+                                    <action selector="didShootAlien:" destination="BYZ-38-t0r" eventType="touchUpInside" id="4So-Qg-Ots"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k5m-DL-Hws">
+                                <rect key="frame" x="20" y="121" width="172" height="30"/>
+                                <state key="normal" title="Did Shoot Ship"/>
+                                <connections>
+                                    <action selector="didShootShip:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IC9-ol-9GP"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uf3-Lr-4Oc">
+                                <rect key="frame" x="20" y="159" width="172" height="30"/>
+                                <state key="normal" title="Did Shoot Base"/>
+                                <connections>
+                                    <action selector="didShootBase:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2tZ-yn-2yf"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
