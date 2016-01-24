@@ -22,8 +22,8 @@ class ViewController: UIViewController {
         var myName:String = "Adam"
         
         label.text = "Hello, world!"
-        nameLable.text = "My name is \(myName)"
-        ageLabel.text = "I am \(myAge)"
+        nameLable.text = "My name is \(myName)."
+        ageLabel.text = "I am \(myAge)."
     }
     
     override func didReceiveMemoryWarning() {
