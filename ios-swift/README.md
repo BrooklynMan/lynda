@@ -2,4 +2,4 @@
 ## Course:
 ### Programming for Non-Programmers: iOS & Swift
 
-exercise files from lynda.com
+exercise files from the lynda.com course **Programming for Non-Programmers: iOS & Swift**, organized by chapter.
